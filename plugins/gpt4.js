@@ -5,7 +5,7 @@ import {delay} from '@whiskeysockets/baileys'
 
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 }
-handler.help = ['gemini <text>']
+handler.help = ['fr<text>']
 handler.tags = ['tools']
 handler.command = /^(gpt4)$/i
 
